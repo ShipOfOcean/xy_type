@@ -11,7 +11,7 @@
 ## 安装
 
 ```
-pip install xy_string
+pip install xy_type
 ```
 
 ## 开始

@@ -15,20 +15,12 @@ pip install xy_type
 
 ## Start
 
-```
-from xy_console.utils import *
-# 普通打印
-printt("hello world")
-# 打印成功
-print_s("hello world")
-# 打印执行
-print_exe("hello world")
-# 打印警告(warning)
-print_w("hello world")
-# 打印运行(running)
-print_r("hello world")
-# 打印运行(error)
-print_e("hello world")
+```python
+from xy_type.utils import count_of_function_arguments, validate_callable_func, validate_callable_init_func, has_func, empty_value
+
+class xyObject:
+    def xyFunc(arg_0=0, arg_1=1):
+        pass
 ```
 
 ## Donate

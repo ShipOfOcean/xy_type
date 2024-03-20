@@ -11,7 +11,9 @@ name = "xy_type"
 authors = [{ name = "helios", email = "yuyang.0515@qq.com" }]
 description = "类型辅助模块"
 
-dynamic = ["version", "readme"]
+dynamic = ["version"]
+
+readme = "README.md"
 
 classifiers = ["Programming Language :: Python :: 3.11.3"]
 
@@ -29,4 +31,3 @@ include-package-data = true
 
 [tool.setuptools.dynamic]
 version = { file = "VERSION" }
-readme = { file = ["README.rst", "USAGE.rst", "README.md", "USAGE.md"] }
