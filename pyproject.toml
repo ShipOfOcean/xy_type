@@ -15,7 +15,7 @@ dynamic = ["version"]
 
 readme = "README.md"
 
-classifiers = ["Programming Language :: Python :: 3.11.3"]
+classifiers = ["Programming Language :: Python :: 3"]
 
 dependencies = []
 
