@@ -7,6 +7,8 @@
 # 说明
 類型工具.
 
+<a href="https://github.com/ShipOfOcean/xy_type.git" target="_blank">Github位址</a>
+
 ## 安装
 ```
 pip install xy_type

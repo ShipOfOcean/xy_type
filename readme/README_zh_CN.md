@@ -7,6 +7,8 @@
 # 说明
 类型工具.
 
+<a href="https://github.com/ShipOfOcean/xy_type.git" target="_blank">Github地址</a>
+
 ## 安装
 
 ```
