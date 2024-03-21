@@ -16,20 +16,44 @@ pip install xy_type
 
 ## 开始
 
-```
-from xy_console.utils import *
-# 普通打印
-printt("hello world")
-# 打印成功
-print_s("hello world")
-# 打印执行
-print_exe("hello world")
-# 打印警告(warning)
-print_w("hello world")
-# 打印运行(running)
-print_r("hello world")
-# 打印运行(error)
-print_e("hello world")
+```python
+from xy_type.utils import count_of_function_arguments, validate_callable_func, validate_callable_init_func, has_func, empty_value
+
+class xyObject:
+
+    def __init__(self, arg_0=0, arg_1=1):
+        pass
+
+    def xyFunc(self, arg_0=0, arg_1=1):
+        pass
+
+    @classmethod
+    def xyClsFunc(cls, arg_0=0, arg_1=1)
+        pass
+
+count_of_function_arguments(xyObject.xyClsFunc)
+# 2
+
+validate_callable_func(xyObject.xyClsFunc)
+# True
+
+validate_callable_init_func(xyObject, 1)
+# True
+
+obj = xyObject()
+has_func(obj, "xyFunc", 2)
+# True
+has_func(obj, "xyFunc1", 2)
+# False
+has_func(obj, "xyFunc", 20)
+# False
+
+empty_value(obj, xyObject, None)
+# obj
+
+empty_value(obj, str, None)
+# None
+
 ```
 
 ## 捐赠
